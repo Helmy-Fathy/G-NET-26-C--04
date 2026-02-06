@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Net.Sockets;
 using System.Text;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace G_NET_26_C__04
 {
@@ -163,6 +164,32 @@ namespace G_NET_26_C__04
             //    _ => "Unknown File Type"
             //};
 
+            #endregion
+
+            #region Q4
+            /*
+             Question 04 : Ternary Operator 
+             Rewrite the following using only ternary operators (no if statements):
+            */
+            //int temperature = 35;
+            //string weatherAdvice;
+
+            //if (temperature < 0)
+            //    weatherAdvice = "Freezing! Stay indoors.";
+            //else if (temperature < 15)
+            //    weatherAdvice = "Cold. Wear a jacket.";
+            //else if (temperature < 25)
+            //    weatherAdvice = "Pleasant weather.";
+            //else if (temperature < 35)
+            //    weatherAdvice = "Warm. Stay hydrated.";
+            //else
+            //    weatherAdvice = "Hot! Avoid sun exposure.";
+
+            //// Ternary Operator 
+            //weatherAdvice = temperature < 0 ? "Freezing! Stay indoors." : temperature < 15 ? "Cold. Wear a jacket." : temperature < 25 ? "Pleasant weather." : temperature < 35 ? "Warm. Stay hydrated." : "Hot! Avoid sun exposure.";
+
+            // Is the ternary version more readable? When would you choose one over the other?
+            // the ternary version is Not more readable , i would choose ternary version in cases wich have mostly 3 paths to Avoid Nested Ternary
             #endregion
         }
     }
