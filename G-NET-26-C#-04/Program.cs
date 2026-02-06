@@ -109,9 +109,61 @@ namespace G_NET_26_C__04
 
             //Console.WriteLine($"Final Ticket Price: {finalPrice} LE");
 
-        #endregion
+            #endregion
+
+            #region Q3
+            /*
+                Question 03: Convert the following if-else chain to:
+                (a) A traditional switch statement
+                (b) A switch expression 
+            */
+            //string fileExtension = ".pdf";
+            //string fileType;
+
+            //if (fileExtension == ".pdf")
+            //    fileType = "PDF Document";
+            //else if (fileExtension == ".docx" || fileExtension == ".doc")
+            //    fileType = "Word Document";
+            //else if (fileExtension == ".xlsx" || fileExtension == ".xls")
+            //    fileType = "Excel Spreadsheet";
+            //else if (fileExtension == ".jpg" || fileExtension == ".png" || fileExtension == ".gif")
+            //    fileType = "Image File";
+            //else
+            //    fileType = "Unknown File Type";
 
 
+            // (a) A traditional switch statement
+            //switch (fileExtension) 
+            //{
+            //    case ".pdf":
+            //        fileType = "PDF Document";
+            //        break;
+            //    case ".docx":
+            //        fileType = "Word Document";
+            //        break;
+            //    case ".xlsx":
+            //        fileType = "Excel Spreadsheet";
+            //        break;
+            //    case ".jpg":
+            //        fileType = "Image File";
+            //        break;
+            //    default:
+            //        fileType = "Unknown File Type";
+            //        break;
+
+            //}
+
+            // (b) A switch expression 
+            //fileType = fileExtension switch
+            //{
+            //    ".pdf" => "PDF Document",
+            //    ".docx" => "Word Document",
+            //    ".xlsx" => "Excel Spreadsheet",
+            //    ".jpg" => "Image File",
+            //    _ => "Unknown File Type"
+            //};
+
+            #endregion
         }
     }
 }
