@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.ComponentModel;
+using System.Net.Sockets;
+using System.Text;
 
 namespace G_NET_26_C__04
 {
@@ -42,7 +44,75 @@ namespace G_NET_26_C__04
 
             #endregion
 
-        
+            #region Q2
+            //Question 02: Ticket Pricing System : Write a program for a cinema ticket pricing system
+            /*
+              Tasks:
+                (a) Implement using if-else if-else statements
+                (b) The program should ask for: age, day of week (1-7, where 6=Fri, 7=Sat), and whether they have a student ID (yes/no)
+                (c) Display the final price with a breakdown of how it was calculated
+             */
+            //Console.WriteLine("Please inter your age");
+            //int age = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please inter day of week, where 6=Fri, 7=Sat");
+            //int day = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Do you have a student ID? (yes/no)");
+            //string isStudent = Console.ReadLine();
+
+            //double basePrice = 0;
+            //double surcharge = 0;
+            //double discount = 0;
+            //string ageCategory = "";
+
+            //if (age < 5)
+            //{
+            //    basePrice = 0;
+            //    ageCategory = " (Under 5)";
+            //}
+            //else if (age >= 5 && age <= 12)
+            //{
+            //    basePrice = 30;
+            //    ageCategory = " (5-12)";
+            //}
+            //else if (age >= 13 && age <= 59)
+            //{
+            //    basePrice = 50;
+            //    ageCategory = " (13-59)";
+            //}
+            //else
+            //{
+            //    basePrice = 25;
+            //    ageCategory = " (60+)";
+            //}
+
+            //double priceAfterSurcharge = basePrice;
+            //if (basePrice > 0 && (day == 6 || day == 7))
+            //{
+            //    priceAfterSurcharge += 10;
+            //}
+
+            //double finalPrice = priceAfterSurcharge;
+            //if (isStudent == "yes" && basePrice > 0)
+            //{
+            //    discount = priceAfterSurcharge * 0.20;
+            //    finalPrice -= discount;
+            //}
+
+            //Console.WriteLine($"Age Category: {ageCategory}");
+            //Console.WriteLine($"Base Price: {basePrice} LE");
+
+            //if (day == 6 || day == 7)
+            //    Console.WriteLine($"Weekend Surcharge: +10 LE");
+
+            //if (discount > 0)
+            //    Console.WriteLine($"Student Discount (20%): -{discount} LE");
+
+            //Console.WriteLine($"Final Ticket Price: {finalPrice} LE");
+
+        #endregion
+
+
         }
     }
 }
+
