@@ -191,6 +191,75 @@ namespace G_NET_26_C__04
             // Is the ternary version more readable? When would you choose one over the other?
             // the ternary version is Not more readable , i would choose ternary version in cases wich have mostly 3 paths to Avoid Nested Ternary
             #endregion
+
+            #region Q5
+            /*
+               Question 05 : Input Validation with Loops 
+                Create a password validation program with these requirements:
+                Password Rules:
+                ●	Minimum 8 characters
+                ●	At least one uppercase letter
+                ●	At least one digit
+                ●	No spaces allowed
+                Program Behavior:
+                ●	Use a do-while loop to keep asking until a valid password is entered
+                ●	After each invalid attempt, tell the user which specific rules they violated
+                ●	Limit attempts to 5. After 5 failed attempts, display "Account locked" and exit
+                ●	On success, display "Password accepted!"
+             */
+            //string password;
+            //bool isValid;
+            //int attempts = 0;
+            //const int maxAttempts = 5;
+
+            //do
+            //{
+            //    attempts++;
+            //    Console.WriteLine($"Enter a password (Attempt {attempts}/{maxAttempts}): ");
+            //    password = Console.ReadLine();
+
+            //    bool hasMinLength = password.Length >= 8;
+            //    bool hasUpper = false;
+            //    bool hasDigit = false;
+            //    bool hasNoSpace = !password.Contains(" ");
+
+            //    foreach (char c in password)
+            //    {
+            //        if (char.IsUpper(c))
+            //            hasUpper = true;
+            //        if (char.IsDigit(c))
+            //            hasDigit = true;
+            //    }
+
+            //    isValid = hasMinLength && hasUpper && hasDigit && hasNoSpace;
+
+            //    if (isValid)
+            //    {
+            //        Console.WriteLine("Password accepted!");
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Invalid password. Please fix the following:");
+            //        if (!hasMinLength)
+            //            Console.WriteLine("Minimum 8 characters");
+            //        if (!hasUpper)
+            //            Console.WriteLine("At least one uppercase letter");
+            //        if (!hasDigit)
+            //            Console.WriteLine("At least one digit");
+            //        if (!hasNoSpace)
+            //            Console.WriteLine("No spaces allowed");
+            //    }
+
+            //    if (attempts >= maxAttempts)
+            //    {
+            //        Console.WriteLine("Account locked. Too many failed attempts.");
+            //        break;
+            //    }
+
+            //} while (!isValid);
+
+            #endregion
         }
     }
 }
