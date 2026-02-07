@@ -260,6 +260,83 @@ namespace G_NET_26_C__04
             //} while (!isValid);
 
             #endregion
+
+            #region Q6
+            /*
+             Question 06 : Array Processing 
+             Given an array of exam scores:
+             int[] scores = { 85, 42, 91, 67, 55, 78, 39, 88, 72, 95, 60, 48 };
+            Using loops (your choice of for, foreach, while), write code to:
+            (a) Find and display all failing scores (below 50) 
+            (b) Find the first score above 90 and stop searching immediately 
+            (c) Calculate the class average, excluding any scores below 40 (considered absent)
+            (d) Count how many students scored in each grade range:
+            ○	A: 90-100
+            ○	B: 80-89
+            ○	C: 70-79
+            ○	D: 60-69
+            ○	F: Below 60
+             */
+            //int[] scores = { 85, 42, 91, 67, 55, 78, 39, 88, 72, 95, 60, 48 };
+            //(a) Find and display all failing scores (below 50) 
+            //Console.WriteLine("Failing scores (below 50):");
+            //foreach (int score in scores)
+            //{
+            //    if (score < 50)
+            //    {
+            //        Console.Write($"{score} ");
+            //    }
+            //}
+            //Console.WriteLine("");
+
+            //(b) Find the first score above 90 and stop searching immediately 
+            //Console.WriteLine("Searching for first score above 90...");
+            //for (int i = 0; i < scores.Length; i++)
+            //{
+            //    if (scores[i] > 90)
+            //    {
+            //        Console.WriteLine($"Found: {scores[i]} at index {i}. Stopping search.");
+            //        break;
+            //    }
+            //}
+
+            //(c) Calculate the class average, excluding any scores below 40 (considered absent)
+            //double sum = 0;
+            //int countForAverage = 0;
+            //foreach (int score in scores)
+            //{
+            //    if (score >= 40)
+            //    {
+            //        sum += score;
+            //        countForAverage++;
+            //    }
+            //}
+            //double average = countForAverage > 0 ? sum / countForAverage : 0;
+            //Console.WriteLine($"Class average (excluding scores < 40): {average}");
+
+            //(d) Count how many students scored in each grade range
+            //int countA = 0, countB = 0, countC = 0, countD = 0, countF = 0;
+
+            //foreach (int score in scores)
+            //{
+            //    if (score >= 90) 
+            //        countA++;
+            //    else if (score >= 80)
+            //        countB++;
+            //    else if (score >= 70) 
+            //        countC++;
+            //    else if (score >= 60) 
+            //        countD++;
+            //    else countF++;
+            //}
+
+            //Console.WriteLine($"A (90-100): {countA}");
+            //Console.WriteLine($"B (80-89) : {countB}");
+            //Console.WriteLine($"C (70-79) : {countC}");
+            //Console.WriteLine($"D (60-69) : {countD}");
+            //Console.WriteLine($"F (Below 60): {countF}");
+
+            #endregion
         }
     }
 }
